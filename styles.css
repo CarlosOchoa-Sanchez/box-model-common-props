@@ -543,7 +543,7 @@ footer{
 /* For the second div, let's align the image to the right and add the dark gray as the background color */
 #bg-img-2{
     background: var(--dk-gray) right no-repeat url("images/puppy-photo.jpg");
-    
+
 }
 
 /* For the third div, let's include the a background color, allow the image to tile, but center the tiling in the container */
@@ -583,6 +583,7 @@ footer{
         - add the wood background texture from the images folder
 */
 #pattern1{
+    background-color: var(--light-gray) 110% url("images/wood.png");
     
 }
 
@@ -640,6 +641,8 @@ footer{
         - float the image to the right
 */
 #dog-house{
+    float: right;
+
     
 }
 
@@ -649,6 +652,8 @@ footer{
         - clear any floats
 */
 #section9{
+    clear: both;
+    
     
 }
 
